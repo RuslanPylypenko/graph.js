@@ -1,0 +1,17 @@
+body, html{
+    margin: 0;
+}
+.graph{
+    width: 100%;
+    background: #eee;
+}
+
+.graph_line{
+    font-size: 0;
+}
+
+.graph_element{
+    box-shadow: inset 0px 0px 3px 1px #fff;
+    display: inline-block;
+    font-size: 0;
+}
