@@ -11,7 +11,11 @@ body, html{
 }
 
 .graph_element{
-    box-shadow: inset 0px 0px 3px 1px #fff;
     display: inline-block;
     font-size: 0;
+    -webkit-transition: background .15s linear;
+    -moz-transition: background .15s linear;
+    -ms-transition: background .15s linear;
+    -o-transition: background .15s linear;
+    transition: background .15s linear;
 }
